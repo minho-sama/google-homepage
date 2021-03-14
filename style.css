@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    margin:0;
+}
+
+.navbar{
+    background-color: grey;
+}
+
+    a:nth-child(1){
+        padding:1px;
+        position:absolute;
+        right:190px;
+        margin-top:16px;
+        color:black;
+        text-decoration: none;
+        }
+    a:nth-child(2){
+        padding:1px;
+        position:absolute;
+        right:120px;
+        margin-top:16px;
+        color:black;
+        text-decoration: none;
+        }
+
+    a:nth-child(3){
+        padding:1px;
+        position:absolute;
+        right:50px;
+        margin-top:15px;
+        }
+
+    #dots{
+        width:20px;
+        height:20px;
+    }
+    a:hover:nth-child(-n+2){
+        text-decoration:underline;
+    }
+    a:hover:nth-child(3){
+        transform:scale(1.2);
+    } 
+
+#logo{
+    margin-top:200px;
+    margin-left:520px;
+    width:272px;
+    height:92px;
+}
+
+.search{
+    position:relative;
+}
+
+#searchbar{
+    border-radius:20px;
+    height:36px;
+    width:50%;
+    outline:0;
+    font-size:16px;
+    border:1px solid rgb(196, 194, 194);
+    padding-left:40px;
+    position:absolute;
+    top:35px;
+    left:285px;     
+}
+
+#magnify{
+    position:absolute;
+    width:17px;
+    height:17px;
+    top:45px;
+    margin-left:300px;
+    padding-top:2px;
+}
+#keypad{
+    position:absolute;
+    width:17px;
+    height:17px;
+    top:47px;
+    right:377px;
+}
+
+#microphone{
+    position:absolute;
+    width:17px;
+    height:17px;
+    top:45px;
+    right:347px;
+    top:47px;
+}
+
+footer{
+    display:flex;
+    background-color: rgb(241, 238, 238);
+    color:rgb(133, 132, 132);
+    margin-bottom:0;
+    margin-top:380px;
+    font-size:15px;
+}
+#location{
+
+}
+
+.stuff{
+}
+a{  
+    display:flex;
+
+    color:rgb(133, 132, 132);
+    text-decoration: none;
+}
